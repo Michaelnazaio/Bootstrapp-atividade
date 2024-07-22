@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <img alt="Bootstrap Image Preview" src="data:image/png;base64,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"
+                    class="rounded-circle" />
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-primary">
+                Bem vindo ao nosso site
+                </h3>
+                <div class="jumbotron">
+                    <h2>
+                        Olá, world!
+                    </h2>
+                    <p>
+                        Somos uma comunidade que ajuda a encontrar seus pets! !
+                    </p>
+                    <p>
+                        <a class="btn btn-primary btn-large" href="#">Veja mais</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <form role="form">
+                    <div class="form-group">
+
+                        <label for="exampleInputEmail1">
+                            COLOQUE SEU EMAIL 
+                        </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" />
+                    </div>
+                    <div class="form-group">
+
+                        <label for="exampleInputPassword1">
+                            SENHA
+                        </label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" />
+                    </div>
+                    <div class="form-group">
+
+                        <label for="exampleInputFile">
+                            File
+                        </label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" />
+                        <p class="help-block">
+                            Example block-level help text here.
+                        </p>
+                    </div>
+                    <div class="checkbox">
+
+                        <label>
+                            <input type="checkbox" /> Check me out
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Clique aqui
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail First"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwe1Ffibi3dUwW6W5sRixtz-v4l4Dk4Ru_7A&s" />
+                            <div class="card-block">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                                    porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                                <p>
+                                    <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Second"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJA2V09xtNCez2fyNGr7mDXMh8TXAri--UQg&s" />
+                            <div class="card-block">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                                    porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                                <p>
+                                    <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Third"
+                                src="https://s2-redeglobo.glbimg.com/UYxiq4LI1o5OZPD7seUAN-NwA7g=/0x0:1404x974/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2018/F/T/aam3uOTEO9vKucVDKiAw/parada.jpg" />
+                            <div class="card-block">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                                    porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                                <p>
+                                    <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
